@@ -11,6 +11,7 @@ Flask-Bootstrap==3.3.7.1
 folium==0.13.0
 geographiclib==1.52
 geopy==2.2.0
+gunicorn==20.1.0
 idna==3.4
 isodate==0.6.1
 itsdangerous==2.1.2
