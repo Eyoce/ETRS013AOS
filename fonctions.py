@@ -181,9 +181,10 @@ def get_distance_directions(call, autonomie_voiture):
     return borne
 
 def client_soap(distance,autonomie):
-    client = Client('http://127.0.0.1:3000/?wsdl')
-    result = client.service.calcul(distance,autonomie)
-    return result
+    #client = Client('http://127.0.0.1:3000/?wsdl')
+    #result = client.service.calcul(distance,autonomie)
+    #return result
+    return 1
 
 def temps_trajet(distance,vitesse):
     temps_trajet = (float(distance) / (float(vitesse))) * 3600
